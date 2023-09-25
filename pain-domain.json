@@ -1,0 +1,194 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "teirbrew",
+				"abbreviation": "tb",
+				"full": "Teir Homebrew",
+				"authors": [
+					"Jem"
+				],
+				"convertedBy": [
+					"Jem"
+				],
+				"version": "1.0",
+				"url": "-",
+				"targetSchema": "1.0.1"
+			}
+		],
+		"dateAdded": 1589918247,
+		"dateLastModified": 1687213881,
+		"_dateLastModifiedHash": "e6ebd7d3a1"
+	},
+	"subclass": [
+		{
+			"name": "Pain Domain",
+			"shortName": "Pain",
+			"source": "teirbrew",
+			"subclassSpells": [
+				"inflict wounds",
+				"shield of faith",
+				"aid",
+				"warding bond",
+				"aura of vitality",
+				"life transference",
+				"death ward",
+				"guardian of faith",
+				"holy weapon",
+				"mass cure wounds"
+			],
+			"subclassFeatures": [
+				"Pain Domain|Cleric||Pain|teirbrew|1",
+				"Channel Divinity: Bond of Suffering|Cleric||Pain|teirbrew|2",
+				"Self Flagellation|Cleric||Pain|teirbrew|6",
+				"Know Pain|Cleric||Pain|teirbrew|8",
+				"Master of Pain|Cleric||Pain|teirbrew|17"
+			],
+			"className": "Cleric",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Pain Domain",
+			"source": "teirbrew",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "teirbrew",
+			"level": 1,
+			"entries": [
+				"Many things in this world are granted to us by the Gods as tools for learning an growth, and perhaps one of the most potent among these blessings is Pain.",
+				"To worshippers of Gods of this domain, Pain is often referred to as one of the great unifying forces of the world. Understanding Pain and how it can teach lessons to those who suffer it requires lifelong devotion.",
+				{
+					"type": "table",
+					"caption": "Pain Domain Spells",
+					"colLabels": [
+						"Cleric Level",
+						"Spells"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1st",
+							"{@spell inflict wounds}, {@spell shield of faith}"
+						],
+						[
+							"3rd",
+							"{@spell aid}, {@spell warding bond}"
+						],
+						[
+							"5th",
+							"{@spell aura of vitality}, {@spell life transference}"
+						],
+						[
+							"7th",
+							"{@spell death ward}, {@spell guardian of faith}"
+						],
+						[
+							"9th",
+							"{@spell holy weapon}, {@spell mass cure wounds}"
+						]
+					]
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Bonus Proficiencies|Cleric||Pain|teirbrew|1"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Shift the Burden|Cleric||Pain|teirbrew|1"
+				}
+			]
+		},
+		{
+			"name": "Bonus Proficiencies",
+			"entries": [
+				"At 1st level, you gain proficiency with {@filter martial weapons|items|source=null|category=basic|type=martial weapon=u~u~sand}."
+			],
+			"source": "teirbrew",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "teirbrew",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Shift the Burden",
+			"entries": [
+				"When a creature within 30 feet of you dies, as a reaction you can transfer the suffering of another willing creature that you can see to the dying creature. The willing creature gains resistance to all damage until the end of your next turn.",
+				"You can use this feature a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest."
+			],
+			"source": "teirbrew",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "teirbrew",
+			"level": 1,
+			"header": 1
+		},
+		{
+			"name": "Channel Divinity: Bond of Suffering",
+			"source": "teirbrew",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "teirbrew",
+			"level": 2,
+			"header": 2,
+			"entries": [
+				"At 2nd level, you can forge a bond of suffering between your allies and enemies. As an action, choose an ally you can see within 30 feet, and a number of enemy creatures you can see up to your Wisdom modifier. You create a magical bond connecting this ally and your chosen enemies that lasts for 1 minute. While bonded, any damage inflicted upon your ally (before resistances and reductions), as well as any healing, is inflicted on the designated enemy creatures as radiant damage."
+			]
+		},
+		{
+			"name": "Self FLagellation",
+			"source": "teirbrew",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "teirbrew",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"Beginning at 6th level, you gain the ability to inflict pain upon others by inflicting pain upon yourself. When you hit with an attack, you can instead choose to inflict that damage on yourself. The targeted creature instead takes maximum damage for that attack."
+			]
+		},
+		{
+			"name": "Know Pain",
+			"source": "teirbrew",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "teirbrew",
+			"level": 8,
+			"header": 2,
+			"entries": [
+				"Starting at 8th level, you gain the ability to ensure your enemies will feel pain. As an action, you designate any number of creatures within 60 feet of you. Any damage resistances these creatures possess when this ability takes effect are negated for 10 minutes. You can perform this action once per short or long rest."
+			]
+		},
+		{
+			"name": "Master of Pain",
+			"source": "teirbrew",
+			"page": 36,
+			"className": "Cleric",
+			"classSource": "PHB",
+			"subclassShortName": "Pain",
+			"subclassSource": "teirbrew",
+			"level": 17,
+			"header": 2,
+			"entries": [
+				"At 17th level, you gain resistance to bludgeoning, piercing, and slashing damage from nonmagical attacks."
+			]
+		}
+	]
+}
